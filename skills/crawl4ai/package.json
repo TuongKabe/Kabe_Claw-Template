@@ -1,0 +1,14 @@
+{
+  "name": "clawdbot-crawl4ai",
+  "version": "1.0.0",
+  "description": "Crawl4AI skill for Clawdbot - Web crawling and Zotero integration",
+  "main": "scripts/crawl-save.js",
+  "scripts": {
+    "crawl": "node scripts/crawl-save.js",
+    "batch": "node scripts/crawl-batch.js",
+    "test": "node scripts/crawl-save.js https://example.com"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  }
+}
