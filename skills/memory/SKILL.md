@@ -5,6 +5,8 @@ description: Unified memory system for Clawdbot. Combines file-based memory (Git
 
 # Memory System
 
+> **Template Goal:** Khi clone về, người dùng biết cách sử dụng và làm được luôn. Thiếu info → Hướng dẫn + hỏi trực tiếp.
+
 Unified memory system với 2 layers:
 1. **File-based** - Git sync (daily notes, long-term)
 2. **Vector Search** - Pinecone + OpenAI (semantic)
